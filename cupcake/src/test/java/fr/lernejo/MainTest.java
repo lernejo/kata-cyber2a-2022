@@ -11,6 +11,6 @@ class MainTest {
         "Cupcake with chocolate and nuts, \uD83E\uDDC1 with \uD83C\uDF6B and \uD83E\uDD5C"
     })
     void test() {
-
+        var myCake = Sugar(Nuts(Chocolate(Cupcake())));
     }
 }
