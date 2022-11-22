@@ -11,6 +11,7 @@
     <modules>
         <module>roman_numbers</module>
         <module>cupcake</module>
+        <module>game_of_life</module>
     </modules>
 
     <properties>
