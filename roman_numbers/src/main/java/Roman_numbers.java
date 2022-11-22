@@ -7,11 +7,13 @@ public class Roman_numbers {
         List<String> romanLetters = Arrays.asList("M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I");
         String romanNumber = "";
         for (int i = 0; i < values.size(); i++) {
-            while (number >= values.get(i) && number <=values.get(i)) {
-                
-            }
-
+            while (number >= values.get(i)) {
+                number -= values.get(i);
+                romanNumber = romanNumber + romanLetters.get(i);
             }
         }
+        System.out.println(romanNumber);
+
     }
 }
+
