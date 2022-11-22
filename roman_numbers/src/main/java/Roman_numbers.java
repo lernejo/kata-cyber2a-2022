@@ -19,7 +19,7 @@ public class Roman_numbers {
 
     public static void main(){
         int test=15;
-        Roman_numbers()
+        Roman_numbers(test);
     }
 }
 
