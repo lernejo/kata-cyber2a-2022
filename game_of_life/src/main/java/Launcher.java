@@ -15,6 +15,7 @@ public class Launcher {
             .mapToObj(i -> ".".repeat(cols))
             .collect(Collectors.joining("\n"));
         var gol = new GameOfLife(initialPopulation);
+        System.out.println(initialPopulation);
         String population = initialPopulation;
         while(true) {
             System.out.println(population);
