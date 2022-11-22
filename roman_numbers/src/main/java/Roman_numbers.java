@@ -21,6 +21,21 @@ public class Roman_numbers {
         int test=150;
         var romanNumber = Roman_numbers(test);
         System.out.println(romanNumber);
+
+        int test1=19;
+        var romanNumber1 = Roman_numbers(test1);
+        System.out.println(romanNumber1);
+
+        int test2=43;
+        var romanNumber2 = Roman_numbers(test2);
+        System.out.println(romanNumber2);
+
+        int test3=7;
+        var romanNumber3 = Roman_numbers(test3);
+        System.out.println(romanNumber3);
+
+
     }
+
 }
 
