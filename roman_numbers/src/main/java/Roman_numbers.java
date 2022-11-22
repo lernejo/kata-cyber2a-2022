@@ -17,9 +17,10 @@ public class Roman_numbers {
         return romanNumber;
     }
 
-    public static void main(){
-        int test=15;
-        Roman_numbers(test);
+    public static void main(String [] args){
+        int test=150;
+        var romanNumber = Roman_numbers(test);
+        System.out.println(romanNumber);
     }
 }
 
