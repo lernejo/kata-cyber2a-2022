@@ -1,4 +1,4 @@
-package org.example;
+package fr.lernejo;
 
 public class Main {
     public static String showCakeName(String cakeName){
@@ -18,4 +18,5 @@ public class Main {
         String candy = "\uD83C\uDF6C";
         String peanut = "\uD83E\uDD5C";
     }
+
 }
